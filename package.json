@@ -1,5 +1,5 @@
 {
-  "name": "HospiceMD-UB04",
+  "name": "deploy_ub04",
   "version": "1.0.0",
   "description": "",
   "main": "routes.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shaleem90/HospiceMD-UB04.git"
+    "url": "git+https://github.com/MikelTafalla/deploy_ub04.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Shaleem90/HospiceMD-UB04/issues"
+    "url": "https://github.com/MikelTafalla/deploy_ub04/issues"
   },
-  "homepage": "https://github.com/Shaleem90/HospiceMD-UB04#readme",
+  "homepage": "https://github.com/MikelTafalla/deploy_ub04#readme",
   "dependencies": {
     "debug": "^4.1.1",
     "express": "^4.17.1",
