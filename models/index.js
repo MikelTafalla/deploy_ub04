@@ -6,13 +6,19 @@ const Sequelize = require('sequelize');
 const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
 const config = require(__dirname + '/../config/config.json')[env];
+//Add this to hide password in gitignore
+const password = require(__dirname + '/../config/password.json');
+
 const db = {};
+if (env === 'development') {
+  config.password = password.password;
+}
 
 let sequelize;
 if (config.use_env_variable) {
    sequelize = new Sequelize(process.env[config.use_env_variable], config);
 } else {
-  sequelize = new Sequelize(config.database, config.username, config.password, config);
+  sequelize = new Sequelize(config.database, config.username, password.password , config);
 }
 
 fs
