@@ -1,3 +1,3 @@
--- CREATE database UB04_DB;
+CREATE database UB04_DB;
 
--- USE ub04;
+USE UB04_DB;
