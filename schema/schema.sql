@@ -1,0 +1,3 @@
+CREATE database UB04_DB;
+
+USE UB04_DB;
